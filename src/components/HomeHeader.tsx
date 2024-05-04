@@ -3,6 +3,8 @@ import { Container, Grid } from "@mui/material";
 import "../styles/styles.css";
 import Profile from "./Profile";
 import SocialMedia from "./SocialMedia";
+import Navigations from "./Navigations";
+import Home from "./Home";
 
 function HomeHeader() {
   return (
@@ -14,11 +16,11 @@ function HomeHeader() {
             <SocialMedia />
           </Grid>
         </Grid>
-        <Grid item xs={7.5}>
-          <div className="side2">home</div>
+        <Grid item xs={7.8}>
+          <Home />
         </Grid>
-        <Grid item xs={1.5}>
-          <div className="side3">navigation</div>
+        <Grid item xs={1.2}>
+          <Navigations />
         </Grid>
       </Grid>
     </Container>

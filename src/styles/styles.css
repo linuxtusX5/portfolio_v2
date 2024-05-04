@@ -35,15 +35,19 @@ img {
 }
 .side2 {
   background-color: #0c4a6e;
-  /* margin: 10px; */
+  position: relative;
   border-radius: 20px;
   height: 100vh;
 }
 .side3 {
   background-color: #0c4a6e;
+  position: relative;
   margin-top: 130px;
   border-radius: 20px;
   height: 60vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 .bottom {
   background-color: #0c4a6e;
@@ -102,4 +106,81 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Navigations */
+.logo2 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 20px;
+}
+.Home {
+  position: absolute;
+  background-color: #082f49;
+  border-radius: 15px;
+  top: 20px;
+  height: 75px;
+  width: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Skills {
+  position: absolute;
+  background-color: #082f49;
+  border-radius: 15px;
+  top: 17vh;
+  height: 75px;
+  width: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Projects {
+  position: absolute;
+  background-color: #082f49;
+  border-radius: 15px;
+  top: 31vh;
+  height: 75px;
+  width: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Contact {
+  position: absolute;
+  background-color: #082f49;
+  border-radius: 15px;
+  top: 45vh;
+  height: 75px;
+  width: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Home */
+.Info {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 20px;
+  top: 20px;
+}
+.Man {
+  position: absolute;
+  height: 60vh;
+  width: 50vh;
+  left: 33vh;
+  top: 30px;
+}
+.bgHome {
+  background-color: #082f49;
+  border-radius: 20px;
+  position: absolute;
+  top: 20px;
+  left: 19px;
+  height: 93vh;
+  width: 120vh;
 }
