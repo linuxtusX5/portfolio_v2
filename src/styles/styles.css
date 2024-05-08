@@ -1,16 +1,15 @@
-.container {
+/* .container {
   background-color: #082f49;
   height: 106vh;
   padding: 15px;
-}
-.side1 {
+} */
+/* .side1 {
   background-color: #0c4a6e;
-  /* margin: 10px; */
   border-radius: 20px;
   height: 400px;
   position: relative;
-}
-.bg {
+} */
+/* .bg {
   background-color: #082f49;
   border-radius: 20px;
   position: absolute;
@@ -18,7 +17,7 @@
   left: 19px;
   height: 40vh;
   width: 42vh;
-}
+} */
 .name {
   position: absolute;
   color: #ffffff;
@@ -29,10 +28,10 @@
 .second {
   font-size: 3vh;
 }
-img {
+/* img {
   height: 250px;
   width: 250px;
-}
+} */
 .side2 {
   background-color: #0c4a6e;
   position: relative;

@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Grid } from "@mui/material";
-import "../styles/styles.css";
 import Profile from "./Profile";
 import SocialMedia from "./SocialMedia";
 import Navigations from "./Navigations";
@@ -8,7 +7,7 @@ import Home from "./Home";
 
 function HomeHeader() {
   return (
-    <Container maxWidth="xl" className="container">
+    <div className="containers">
       <Grid container spacing={1}>
         <Grid item xs={3}>
           <Profile />
@@ -23,7 +22,7 @@ function HomeHeader() {
           <Navigations />
         </Grid>
       </Grid>
-    </Container>
+    </div>
   );
 }
 

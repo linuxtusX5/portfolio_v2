@@ -16,7 +16,7 @@ function Home() {
           <strong className="CV">Download my CV</strong>
         </div>
         <div className="about">
-          <p>
+          <p className="bg-red-500">
             As a Software developer, I designed and maintained server-side
             applications, built RESTful APIs, and managed MySQL databases. I'm
             expertise in JavaScript, typescript, React and Node.js ensured
