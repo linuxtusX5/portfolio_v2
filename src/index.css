@@ -8,36 +8,3 @@ body {
   position: relative;
   background-color: theme("colors.MainBG");
 }
-
-@layer components {
-  .containers {
-    /* background-color: black; */
-    position: absolute;
-    left: 0;
-    right: 0;
-    padding: 10px;
-  }
-  .side1 {
-    background-color: theme("colors.second");
-    border-radius: 20px;
-    height: 400px;
-    position: relative;
-  }
-  .bg {
-    background-color: theme("colors.MainBG");
-    border-radius: 20px;
-    position: absolute;
-    top: 20px;
-    left: 19px;
-    height: 40vh;
-    width: 42vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .Pic {
-    height: 250px;
-    width: 250px;
-    border-radius: 15px;
-  }
-}

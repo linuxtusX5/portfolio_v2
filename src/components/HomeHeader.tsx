@@ -7,21 +7,19 @@ import Home from "./Home";
 
 function HomeHeader() {
   return (
-    <div className="containers">
-      <Grid container spacing={1}>
-        <Grid item xs={3}>
-          <Profile />
-          <Grid item>
-            <SocialMedia />
-          </Grid>
-        </Grid>
-        <Grid item xs={7.8}>
-          <Home />
-        </Grid>
-        <Grid item xs={1.2}>
-          <Navigations />
-        </Grid>
-      </Grid>
+    <div className="grid grid-cols-12 gap-3 p-[10px]">
+      <div className="col-start-1 col-span-3">
+        <Profile />
+        <div className="">
+          <SocialMedia />
+        </div>
+      </div>
+      <div className="col-start-4 col-span-8">
+        <Home />
+      </div>
+      <div className="col-start-12">
+        <Navigations />
+      </div>
     </div>
   );
 }

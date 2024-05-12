@@ -3,26 +3,29 @@ import Home from "../assets/home.png";
 import Skills from "../assets/skill.png";
 import Projects from "../assets/project.png";
 import Contact from "../assets/contacts.png";
-import "../styles/styles.css";
 
 function Navigations() {
   return (
-    <div className="side3">
-      <div className="Home">
-        <img className="logo2" src={Home} alt="Home" />
-        {/* <strong className="name1">Salvatus Dev</strong> */}
+    <div className="bg-second relative mt-[130px] rounded-2xl h-[60vh] justify-center items-center flex">
+      <div className="absolute bg-MainBG rounded-2xl top-[20px] h-[75px] w-[12vh] flex justify-center items-center">
+        <img className="absolute h-[50px] w-[50px] " src={Home} alt="Home" />
       </div>
-      <div className="Skills">
-        <img className="logo2" src={Skills} alt="Skills" />
-        {/* <strong className="name1">Salvatus Dev</strong> */}
+      <div className="absolute bg-MainBG rounded-2xl top-[17vh] h-[75px] w-[12vh] flex justify-center items-center">
+        <img className="absolute h-[50px] w-[50px]" src={Skills} alt="Skills" />
       </div>
-      <div className="Projects">
-        <img className="logo2" src={Projects} alt="Projects" />
-        {/* <strong className="name1">Salvatus Dev</strong> */}
+      <div className="absolute bg-MainBG rounded-2xl top-[31vh] h-[75px] w-[12vh] flex justify-center items-center">
+        <img
+          className="absolute h-[50px] w-[50px]"
+          src={Projects}
+          alt="Projects"
+        />
       </div>
-      <div className="Contact">
-        <img className="logo2" src={Contact} alt="Contact" />
-        {/* <strong className="name1">Salvatus Dev</strong> */}
+      <div className="absolute bg-MainBG rounded-2xl top-[45vh] h-[75px] w-[12vh] flex justify-center items-center">
+        <img
+          className="absolute h-[50px] w-[50px]"
+          src={Contact}
+          alt="Contact"
+        />
       </div>
     </div>
   );
