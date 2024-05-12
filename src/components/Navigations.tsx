@@ -7,7 +7,7 @@ import Contact from "../assets/contacts.png";
 function Navigations() {
   return (
     <div className="bg-second relative mt-[130px] rounded-2xl h-[60vh] justify-center items-center flex">
-      <div className="absolute bg-MainBG rounded-2xl top-[20px] h-[75px] w-[12vh] flex justify-center items-center">
+      {/* <div className="absolute bg-MainBG rounded-2xl top-[20px] h-[75px] w-[12vh] flex justify-center items-center">
         <img className="absolute h-[50px] w-[50px] " src={Home} alt="Home" />
       </div>
       <div className="absolute bg-MainBG rounded-2xl top-[17vh] h-[75px] w-[12vh] flex justify-center items-center">
@@ -26,7 +26,7 @@ function Navigations() {
           src={Contact}
           alt="Contact"
         />
-      </div>
+      </div> */}
     </div>
   );
 }

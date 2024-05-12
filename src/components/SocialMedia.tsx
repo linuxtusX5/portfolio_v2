@@ -5,8 +5,8 @@ import linkedin from "../assets/linkedin.png";
 
 function SocialMedia() {
   return (
-    <div className="bg-second relative mt-[15px] rounded-2xl h-[233px] justify-center items-center flex">
-      <div className="absolute bg-MainBG rounded-2xl top-[20px] h-[55px] w-[40vh] flex justify-center items-center">
+    <div className=" bg-debug relative mt-[15px] rounded-2xl h-[233px] justify-center items-center flex">
+      {/* <div className="absolute bg-MainBG rounded-2xl top-[20px] h-[55px] w-[40vh] flex justify-center items-center">
         <img
           className="absolute h-[50px] w-[50px] left-[10px]"
           src={facebook}
@@ -35,7 +35,7 @@ function SocialMedia() {
         <strong className="absolute text-[#ffffff] text-[3.5vh] left-[13vh]">
           joffrey salvatus
         </strong>
-      </div>
+      </div> */}
     </div>
   );
 }
