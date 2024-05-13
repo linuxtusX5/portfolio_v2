@@ -5,7 +5,7 @@ import linkedin from "../assets/linkedin.png";
 
 function SocialMedia() {
   return (
-    <div className=" bg-debug relative mt-[15px] rounded-2xl h-[233px] justify-center items-center flex">
+    <div className=" bg-second relative rounded-2xl h-[233px] justify-center items-center flex">
       {/* <div className="absolute bg-MainBG rounded-2xl top-[20px] h-[55px] w-[40vh] flex justify-center items-center">
         <img
           className="absolute h-[50px] w-[50px] left-[10px]"
