@@ -18,7 +18,7 @@ function HomeHeader() {
         <SocialMedia />
       </div>
 
-      <div className="hidden md:block md:col-start-2 md:row-start-1 md:mt-[44vh] lg:block lg:col-start-12 lg:col-span-1 bg-second md:w-full md:h-[20vh] rounded-2xl h-[60vh] lg:w-full">
+      <div className="hidden md:block md:col-start-2 md:row-start-1 md:mt-[44vh] lg:block lg:col-start-12 lg:col-span-1 bg-second md:w-full md:h-[20vh] md:px-4 rounded-2xl h-[60vh] lg:w-full lg:h-[70vh] lg:mt-[15vh] lg:py-[30px]">
         <Navigations />
       </div>
     </div>
