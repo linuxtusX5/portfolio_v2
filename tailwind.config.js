@@ -11,7 +11,7 @@ module.exports = {
     colors: {
       MainBG: "#082f49",
       second: "#0c4a6e",
-      debug: "#0fff",
+      debug: "#B80000",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],

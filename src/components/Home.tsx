@@ -5,39 +5,38 @@ import Download from "../assets/download.png";
 
 function Home() {
   return (
-    <div className=" bg-second relative rounded-2xl h-[100vh] ">
-      Home
-      {/* <div className="bg-MainBG rounded-2xl absolute top-[20px] left-[19px] h-[93vh] w-[126vh]">
+    <div className="relative flex justify-center items-center">
+      <div className="bg-MainBG rounded-2xl absolute h-[93vh] w-full top-5 flex justify-center items-center">
         <img
-          className="absolute h-[50px] w-[50px] left-[20px] top-[20px]"
+          className="absolute h-[30px] w-[30px] left-[10px] top-[10px] md:h-[40px] md:w-[40px]"
           src={Info}
           alt="Info"
         />
         <img
-          className="absolute h-[60vh] w-[50vh] left-[33vh] top-[30px]"
+          className="absolute h-[50vh] w-[40vh] top-[40px] md:h-[60vh] md:w-[50vh]"
           src={Man}
           alt="Man"
         />
 
-        <div className="absolute bg-second rounded-2xl bottom-[20ch] h-[50px] w-[35vh] flex justify-center items-center left-[35%]">
+        <div className="absolute bg-second rounded-2xl bottom-[20ch] h-[40px] w-[30vh] flex justify-center items-center md:bottom-[18ch]">
           <img
-            className="absolute h-[40px] w-[40px] left-[10px]"
+            className="absolute h-[25px] w-[25px] left-[10px]"
             src={Download}
             alt="Download"
           />
-          <strong className="absolute text-[#ffffff] text-[3vh] left-[62px]">
+          <strong className="absolute text-[#ffffff] text-[15px] left-[45px]">
             Download my CV
           </strong>
         </div>
-        <div className="absolute bottom-[60px] left-0 right-0 flex justify-center items-center">
-          <p className="text-[#ffffff] text-[2vh] w-[75%]">
+        <div className="absolute bottom-[45px] left-0 right-0 flex justify-center items-center md:px-[10px]">
+          <p className="text-[#ffffff] text-[13px] w-full p-[10px] md:text-[15px] ">
             As a Software developer, I designed and maintained server-side
             applications, built RESTful APIs, and managed MySQL databases. I'm
             expertise in JavaScript, typescript, React and Node.js ensured
             scalable, performant solutions.
           </p>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }

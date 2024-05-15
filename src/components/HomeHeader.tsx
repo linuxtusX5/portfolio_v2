@@ -5,38 +5,20 @@ import Home from "./Home";
 
 function HomeHeader() {
   return (
-    // <div className="grid md:grid-cols-12 md:gap-3 gap-5 md:grid-flow-col p-[10px] md:grid-rows-1 grid-cols-1">
-    //   <div className="md:col-start-1 md:col-span-3 md:row-span-3  md:row-start-1">
-    //     <Profile />
-    //   </div>
-
-    //   <div className="md:col-span-8 md:row-span-4 row-start-2 col-start-1 row-span-4">
-    //     <Home />
-    //   </div>
-
-    //   <div className="md:col-start-1 md:col-span-3 md:row-span-1 col-start-1 row-start-6 row-span-1 ">
-    //     <SocialMedia />
-    //   </div>
-
-    //   <div className="md:col-span-1 md:row-span-4 md:block hidden">
-    //     <Navigations />
-    //   </div>
-    // </div>
-
     <div className="grid p-[10px] gap-5 md:grid-cols-2 lg:grid-cols-12 lg:grid-flow-col lg:gap-3 lg:grid-rows-1">
-      <div className="md:col-start-1 md:col-span-1 lg:col-span-3 lg:col-start-1">
+      <div className="md:col-start-1 md:col-span-1 lg:col-span-3 lg:col-start-1 px-5 lg:h-[400px] bg-second rounded-2xl h-[400px]">
         <Profile />
       </div>
 
-      <div className="md:col-span-2 md:row-start-2 md:col-start-1 lg:col-span-8 lg:col-start-4 lg:row-start-1">
+      <div className="md:col-span-2 md:row-start-2 md:col-start-1 lg:col-span-8 lg:col-start-4 lg:row-start-1 bg-second rounded-2xl h-[100vh] px-5">
         <Home />
       </div>
 
-      <div className="md:col-start-2 md:col-span-1 lg:col-start-1 lg:col-span-3 lg:row-span-1 lg:mt-[-38vh]">
+      <div className="md:col-start-2 md:col-span-1 md:row-start-1 lg:col-start-1 lg:col-span-3 lg:row-span-1 lg:mt-[-38vh] lg:h-[36vh] bg-second rounded-2xl md:h-[40vh]">
         <SocialMedia />
       </div>
 
-      <div className="hidden lg:block lg:col-start-12 lg:col-span-1">
+      <div className="hidden md:block md:col-start-2 md:row-start-1 md:mt-[44vh] lg:block lg:col-start-12 lg:col-span-1 bg-second md:w-full md:h-[20vh] rounded-2xl h-[60vh] lg:w-full">
         <Navigations />
       </div>
     </div>

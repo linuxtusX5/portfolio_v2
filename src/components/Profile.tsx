@@ -3,20 +3,21 @@ import profile from "../assets/me.png";
 
 function Profile() {
   return (
-    <div className="bg-second rounded-2xl h-[400px] relative flex justify-center items-center ">
-      Profile
-      {/* <div className="bg-MainBG rounded-2xl absolute top-[20px] h-[40vh] w-[42vh] flex items-center justify-center">
+    <div className="relative flex justify-center items-center">
+      <div className="bg-MainBG rounded-2xl absolute top-5 h-[40vh] w-full flex items-center justify-center lg:h-[40vh] md:h-[40vh]">
         <img
-          className="h-[250px] w-[250px] rounded-2x1"
+          className="h-full w-[260px] lg:h-[260px] absolute top-0 rounded-2xl md:w-[250px] md:h-[250px]"
           src={profile}
           alt="Profile"
         />
       </div>
-      <div className="absolute text-[#ffffff] text-[5vh] bottom-[30px]">
-        <strong>Joffrey Salvatus</strong>
+      <div className=" text-[#ffffff] relative h-full w-full mt-[290px] lg:mt-[290px]">
+        <strong className="text-[5vh] lg:text-[30pxh]">Joffrey Salvatus</strong>
         <br />
-        <strong className="text-[3vh]">(Software Developer)</strong>
-      </div> */}
+        <strong className="text-[3vh] lg:text-[20px]">
+          (Software Developer)
+        </strong>
+      </div>
     </div>
   );
 }
