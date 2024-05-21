@@ -5,14 +5,17 @@ import Projects from "../assets/project.png";
 import Contact from "../assets/contacts.png";
 import { Button } from "flowbite-react";
 import { Tooltip } from "flowbite-react";
+import { Link } from "react-router-dom";
 
 function Navigations() {
   return (
     <div className="relative md:justify-between md:items-center md:flex md:h-full md:w-full lg:justify-center">
       <Button className="bg-MainBG relative rounded-2xl lg:top-[20px] h-[75px] w-[12vh] flex justify-center items-center lg:absolute">
-        <Tooltip content="Home" placement="left" style="light">
-          <img className="h-full w-full " src={Home} alt="Home" />
-        </Tooltip>
+        <Link to="/home">
+          <Tooltip content="Home" placement="left" style="light">
+            <img className="h-full w-full " src={Home} alt="Home" />
+          </Tooltip>
+        </Link>
       </Button>
       <Button className="bg-MainBG rounded-2xl lg:top-[17vh] h-[75px] w-[12vh] flex justify-center items-center lg:absolute">
         <Tooltip content="Skills" placement="left" style="light">

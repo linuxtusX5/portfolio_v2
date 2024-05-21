@@ -1,7 +1,7 @@
 import Profile from "./Profile";
 import SocialMedia from "./SocialMedia";
 import Navigations from "./Navigations";
-import Home from "./Home";
+import Home from "../pages/Home";
 
 function HomeHeader() {
   return (
