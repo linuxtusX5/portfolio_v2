@@ -18,19 +18,25 @@ function Navigations() {
         </Link>
       </Button>
       <Button className="bg-MainBG rounded-2xl lg:top-[17vh] h-[75px] w-[12vh] flex justify-center items-center lg:absolute">
-        <Tooltip content="Skills" placement="left" style="light">
-          <img className="h-full w-full " src={Skills} alt="Skills" />
-        </Tooltip>
+        <Link to="/skills">
+          <Tooltip content="Skills" placement="left" style="light">
+            <img className="h-full w-full " src={Skills} alt="Skills" />
+          </Tooltip>
+        </Link>
       </Button>
       <Button className="bg-MainBG rounded-2xl lg:top-[31vh] h-[75px] w-[12vh] flex justify-center items-center lg:absolute">
-        <Tooltip content="Projects" placement="left" style="light">
-          <img className="h-full w-full" src={Projects} alt="Projects" />
-        </Tooltip>
+        <Link to="/projects">
+          <Tooltip content="Projects" placement="left" style="light">
+            <img className="h-full w-full" src={Projects} alt="Projects" />
+          </Tooltip>
+        </Link>
       </Button>
       <Button className="bg-MainBG rounded-2xl lg:top-[45vh] h-[75px] w-[12vh] flex justify-center items-center lg:absolute">
-        <Tooltip content="Contact" placement="left" style="light">
-          <img className="h-full w-full" src={Contact} alt="Contact" />
-        </Tooltip>
+        <Link to="/contact">
+          <Tooltip content="Contact" placement="left" style="light">
+            <img className="h-full w-full" src={Contact} alt="Contact" />
+          </Tooltip>
+        </Link>
       </Button>
     </div>
   );
