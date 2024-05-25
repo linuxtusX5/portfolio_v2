@@ -1,22 +1,9 @@
 import Profile from "./Profile";
 import SocialMedia from "./SocialMedia";
 import Navigations from "./Navigations";
-import Home from "../pages/Home";
-import { useState } from "react";
-import Projects from "../pages/Projects";
 import { Outlet } from "react-router-dom";
 
 function HomeHeader() {
-  // const [Pages, setPages] = useState<string>("home")
-
-  // const Renders = () => {
-  //   switch (Pages){
-  //     case "Home":
-  //       return <Home />
-  //     case "Projects":
-  //       return<Projects/>
-  //       }
-  // }
   return (
     <div className="grid p-[10px] gap-5 md:grid-cols-2 lg:grid-cols-12 lg:grid-flow-col lg:gap-3 lg:grid-rows-1">
       <div className="md:col-start-1 md:col-span-1 lg:col-span-3 lg:col-start-1 px-5 lg:h-[400px] bg-second rounded-2xl h-[400px]">
