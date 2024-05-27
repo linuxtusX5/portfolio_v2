@@ -1,4 +1,3 @@
-import React from "react";
 import Info from "../assets/info.png";
 import Man from "../assets/man.png";
 import Download from "../assets/download.png";
