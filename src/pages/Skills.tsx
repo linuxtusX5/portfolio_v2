@@ -21,7 +21,7 @@ function Skills() {
   return (
     <div className="relative flex justify-center items-center">
       <div className="overflow-y-auto  flex justify-center bg-MainBG rounded-2xl absolute h-[93vh] w-full top-5 p-[10px]">
-        <div className="h-[90vh] w-[40vh] top-5 lg:items-center lg:w-full lg:grid lg:grid-cols-3">
+        <div className="h-[90vh] w-[40vh] top-5 lg:items-center lg:w-full lg:grid lg:grid-cols-3 lg:gap-3">
           <div className="relative bg-second rounded-2xl ] h-[55px] w-[40vh] flex justify-center items-center mb-2">
             <img
               className="h-[40px] w-[40px] absolute left-[5vh]"
