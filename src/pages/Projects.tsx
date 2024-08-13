@@ -193,7 +193,7 @@ function Projects() {
           </Card>
 
           <Card
-            className=" w-[50vh] lg:w-auto bg-second mb-[20px] p-[10px] lg:p-[20px] border-none flex justify-center items-center"
+            className=" w-full lg:w-auto bg-second mb-[20px] p-[10px] lg:p-[20px] border-none flex justify-center items-center"
             imgAlt="TaskManagement"
           >
             {" "}

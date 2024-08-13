@@ -49,7 +49,7 @@ function Contact() {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="flex flex-col flex-1 gap-3 w-[45vh] lg:w-[60vh] pt-3"
+            className="flex flex-col flex-1 gap-3 w-[35vh] lg:w-[60vh] pt-3"
           >
             <input
               className="rounded-2xl"
