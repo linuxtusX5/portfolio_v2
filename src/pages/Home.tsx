@@ -19,12 +19,11 @@ function Home() {
           alt="Man"
         />
 
-        <Button className="absolute bg-second rounded-2xl bottom-[20ch] h-[40px] w-[30vh] flex justify-center items-center md:bottom-[18ch]">
-          <a
-            href={resume}
-            download="salvatus_joffrey.pdf"
-            className="flex justify-center items-center relative w-[30vh]"
-          >
+        <Button
+          className="absolute bg-second rounded-2xl bottom-[20ch] h-[40px] w-[30vh] flex justify-center items-center md:bottom-[18ch]"
+          onClick={() => window.open(resume, "_blank")}
+        >
+          <div className="flex justify-center items-center relative w-[20vh] lg:w-[30vh]">
             <img
               className="absolute h-[25px] w-[25px] left-[10px]"
               src={Download}
@@ -33,7 +32,7 @@ function Home() {
             <strong className="absolute text-[#ffffff] text-[15px] left-[45px]">
               Download my CV
             </strong>
-          </a>
+          </div>
         </Button>
         <div className="absolute bottom-[45px] left-0 right-0 flex justify-center items-center md:px-[10px]">
           <p className="text-[#ffffff] text-[13px] w-full p-[10px] md:text-[15px] ">

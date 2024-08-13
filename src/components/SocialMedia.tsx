@@ -27,7 +27,7 @@ function SocialMedia() {
           </strong>
         </a>
       </Button>
-      <Button className="absolute bg-MainBG rounded-2xl top-[11vh] h-[55px] w-[40vh]">
+      <Button className="absolute bg-MainBG rounded-2xl top-[11vh] lg:top-[13vh] h-[55px] w-[40vh]">
         <a
           href={GITHUB}
           target="_blank"
@@ -44,7 +44,7 @@ function SocialMedia() {
           </strong>
         </a>
       </Button>
-      <Button className="absolute bg-MainBG rounded-2xl top-[19vh] h-[55px] w-[40vh]">
+      <Button className="absolute bg-MainBG rounded-2xl top-[19vh] lg:top-[23vh] h-[55px] w-[40vh]">
         <a
           href={LINKEDIN}
           target="_blank"
