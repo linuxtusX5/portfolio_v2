@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 function Navigations() {
   return (
-    <div className="relative md:justify-between md:items-center md:flex md:h-full md:w-full lg:justify-center">
+    <div className="relative md:gap-2 md:justify-between md:items-center md:flex md:h-full md:w-full lg:justify-center">
       <Button className="bg-MainBG relative rounded-2xl lg:top-[20px] h-[75px] w-[12vh] flex justify-center items-center lg:absolute">
         <Link to="/home">
           <Tooltip content="Home" placement="left" style="light">

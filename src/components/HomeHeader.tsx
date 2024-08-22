@@ -25,13 +25,13 @@ function HomeHeader() {
         <Outlet />
       </div>
 
-      <div className="md:col-start-2 md:col-span-1 md:row-start-1 lg:col-start-1 lg:col-span-3 lg:row-span-1 lg:mt-[-38vh] lg:h-[36vh] bg-second rounded-2xl md:h-[40vh]">
+      <div className="md:col-start-2 md:col-span-1 md:row-start-1 lg:col-start-1 lg:col-span-3 lg:row-span-1 lg:mt-[-38vh] lg:h-[36vh] bg-second rounded-2xl md:h-[30vh]">
         <SocialMedia />
       </div>
       {isSmallScreen ? (
         <BasicSpeedDial />
       ) : (
-        <div className="hidden md:block md:col-start-2 md:row-start-1 md:mt-[44vh] lg:block lg:col-start-12 lg:col-span-1 bg-second md:w-full md:h-[20vh] md:px-4 rounded-2xl h-[60vh] lg:w-full lg:h-[70vh] lg:mt-[15vh] lg:py-[20px]">
+        <div className="hidden md:block md:col-start-2 md:row-start-1 md:mt-[33vh] lg:block lg:col-start-12 lg:col-span-1 bg-second md:w-full md:h-[14vh] md:px-4 rounded-2xl h-[60vh] lg:w-full lg:h-[70vh] lg:mt-[15vh] lg:py-[20px]">
           <Navigations />
         </div>
       )}

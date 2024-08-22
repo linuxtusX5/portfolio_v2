@@ -35,7 +35,7 @@ function Home() {
           </div>
         </Button>
         <div className="absolute bottom-[45px] left-0 right-0 flex justify-center items-center md:px-[10px]">
-          <p className="text-[#ffffff] text-[13px] w-full p-[10px] md:text-[15px] ">
+          <p className="text-[#ffffff] text-[13px] w-full p-[10px] md:text-[18px]">
             As a Software developer, I designed and maintained server-side
             applications, built RESTful APIs, and managed MySQL databases. I'm
             expertise in JavaScript, typescript, React and Node.js ensured
